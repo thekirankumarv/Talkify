@@ -1,0 +1,9 @@
+/* 
+ * Core CSS Configuration:
+ * - Initializes Tailwind CSS with all utilities
+ * - Integrates DaisyUI with all available themes
+ */
+ @import "tailwindcss";
+ @plugin "daisyui" {
+   themes: all; /* Enables all DaisyUI color themes */
+ }
